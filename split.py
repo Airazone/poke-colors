@@ -8,8 +8,8 @@ im = Image.open("pokemans.png")
 
 output_dir = poke.get_path("images")
 collage_width, collage_height = im.size
-poke_width = 80
-poke_height = 80
+poke_width = 96
+poke_height = 96
 
 for i in range(poke.num_pokes):
     poke_left = i * poke_width
